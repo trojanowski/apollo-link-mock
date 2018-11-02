@@ -1,11 +1,16 @@
 {
   "name": "apollo-link-mock",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "",
   "main": "lib/index.js",
   "files": [
     "lib"
   ],
+  "homepage": "https://github.com/trojanowski/apollo-link-mock#readme",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/trojanowski/apollo-link-mock.git"
+  },
   "scripts": {
     "build": "tsc -p .",
     "prepublish": "npm run build"
