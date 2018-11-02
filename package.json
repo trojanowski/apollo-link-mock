@@ -1,0 +1,26 @@
+{
+  "name": "apollo-link-mock",
+  "version": "1.0.0",
+  "description": "",
+  "main": "lib/index.js",
+  "files": [
+    "lib"
+  ],
+  "scripts": {
+    "build": "tsc -p .",
+    "prepublish": "npm run build"
+  },
+  "author": "Daniel Trojanowski",
+  "license": "MIT",
+  "dependencies": {
+    "apollo-link": "^1.2.3",
+    "apollo-utilities": "^1.0.25",
+    "lodash.isequal": "^4.5.0"
+  },
+  "devDependencies": {
+    "@types/graphql": "^14.0.3",
+    "@types/node": "^10.12.2",
+    "graphql": "^14.0.2",
+    "typescript": "^3.1.6"
+  }
+}
